@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalfi Event</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #005f73; /* Amalfi blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffba08; /* Amalfi yellow */
+            text-align: center;
+            padding: 10px;
+        }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: bold;
+            }
+
+        section {
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Amalfi-Inspired Event</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>Details about the event go here.</p>
+    </section>
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/600x400" alt="Placeholder Image">
+            <img src="https://via.placeholder.com/600x400" alt="Placeholder Image">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Amalfi Event. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
